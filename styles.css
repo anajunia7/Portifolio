@@ -3,3 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+#logo {
+    height: 50 50px;
+    margin-right: 20px;
+
+}
+
+/* SOCIAL ICONS */
+.social-icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-icons .icon {
+  font-size: 28px;
+  color: #777676;
+  transition: 0.3s ease;
+}
+
+.social-icons .icon:hover {
+  color: #D3A784;
+  transform: translateY(-4px);
+  text-shadow: 0 0 8px rgba(211, 167, 132, 0.6);
+}
